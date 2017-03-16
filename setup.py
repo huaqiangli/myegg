@@ -20,7 +20,7 @@ setup(name='myegg',
           'argparse',
       ],
       entry_points={
-          'console_scripts': ['myegg=myegg.command_line:main'],
+          'gui_scripts': ['myegg=myegg.command_line:main'],
       },
       include_package_data=True,
       zip_safe=False)
